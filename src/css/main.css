@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&display=swap');
+
+@font-face {
+    font-family: Nimbus;
+    src: url(../fonts/NimbusSansT-BlackCondensed.otf);
+}
+
+
+
 :root {
     --purple: #653398;
     --blue: #60B4D4;
@@ -5,10 +14,53 @@
     --red: #F34F3A;
     --white: #f9f7f7;
     --black: #191a1c;
+    --anek: "Anek Bangla", sans-serif;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+header {
+    background-color: var(--purple);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-logo {
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-logo img{
+    height: 68px;
+    width: 68px;
+}
+
+#links-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.link {
+    margin: 18px;
+    color: var(--white);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Nimbus;
+    font-size: 1.2em;
+}
+
+.icon {
+    margin-left: 10px;
+    text-decoration: none;
 }
