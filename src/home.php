@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="./css/home.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -9,11 +10,26 @@
 
 <body>
 
-<<<<<<< Updated upstream
-=======
-    <div class="header">
-        <h1 class="headerTextKlein">Hosting services</h1>
-        <h1 class="headerTextGroot">KRAS HOSTING</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="hero">
+        <h1 class="heroTextKlein">Hosting services</h1>
+        <h1 class="heroTextGroot">KRAS HOSTING</h1>
     </div>
 
 
@@ -50,7 +66,6 @@
         <p class="ultimate-text">ultimate</p>
         <p class="ultimate-prijs">€20</p>
     </div>
->>>>>>> Stashed changes
 </body>
 
 </html>
