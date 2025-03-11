@@ -1,4 +1,4 @@
-@import url('../css/main.css');
+@import url('main.css');
 
 .hero {
     background-color: var(--purple);
