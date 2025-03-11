@@ -15,7 +15,7 @@
             <img src="./img/logo.svg" alt="logo">
         </a>
         <div id="links-wrapper">
-            <a class="link" href="#">Home</a>
+            <a class="link" href="home.php">Home</a>
             <a class="link" href="about.php">Over</a>
             <a class="link" href="producten.php">Producten</a>
             <a class="link" href="contact.php">Contact</a>
