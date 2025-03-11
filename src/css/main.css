@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
 @font-face {
     font-family: Nimbus;
@@ -15,6 +16,7 @@
     --anek: "Anek Bangla", sans-serif;
     --nimbus: Nimbus;
     --tt: "TT backwards sans trial";
+    --lilita: "Lilita One", sans-serif;
 
 }
 
@@ -61,6 +63,21 @@ header {
     margin-right: 20px;
 }
 
+.link {
+    margin: 18px;
+    color: var(--white);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Nimbus;
+    font-size: 1.2em;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: var(--red);
+}
+
 .link::before {
     content: "";
     position: absolute;
@@ -69,35 +86,25 @@ header {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #000;
+    background-color: var(--red);
     transform: scaleX(0);
+    transform-origin: left;
     transition: transform 0.3s ease;
   }
 
-.link {
-    margin: 18px;
-    color: var(--white);
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: Nimbus;
-    font-size: 1.2em;
-    transition: 0.1s color, 0.1s text-decoration;
-    position: relative;
-}
-
-.link:hover {
-    color: var(--red);
-    text-decoration: underline;
-}
-
-
+  a:hover::before {
+    transform: scaleX(1);
+  }
 
 .icon {
     margin-left: 18px;
     text-decoration: none;
-    transition: 0.2s;
     height: fit-content;
     width: fit-content;
+}
+
+.icon svg path {
+    transition: fill 0.3s ease;
 }
 
 .icon:hover svg path {
