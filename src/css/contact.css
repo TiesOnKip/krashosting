@@ -1,1 +1,8 @@
 @import url('../css/main.css');
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    border-left: 6px solid orange;
+    padding-left: 14px;
+}
