@@ -45,13 +45,13 @@
     </div>
 
 
-    <h1 class="onsProgrammaTitel">Ons Programma</h1>
+    <h3 class="onsProgrammaTitel">Ons Programma</h3>
     <p class="onsProgrammaText">Onze beste fitness expers helpen je met nieuwe technieken</p>
 
-    <h1 class="vandaagTitel">Vandaag</h1>
+    <h3 class="vandaagTitel">Vandaag</h3>
     <p class="vandaagText"> Fijne dag vandaag</p>
 
-    <h1 class="gisterenTitel">Gisteren </h1>
+    <h3 class="gisterenTitel">Gisteren </h3>
     <p class="gisterenText"> Fijne dag vandaag/p>
 
     <div class="beginner">
