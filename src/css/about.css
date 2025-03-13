@@ -1,1 +1,66 @@
+/* Import main CSS at the top level of the file */
 @import url('../css/main.css');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Heading styling with left border */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    border-left: 6px solid #8e44ad; /* Purple color to match your theme */
+    padding-left: 14px;
+}
+
+/* Main content layout */
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+}
+
+.text-content {
+    flex: 1;
+    min-width: 300px;
+    max-width: 50%;
+}
+
+.image-content {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Style for the purple illustration */
+.image-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+    
+    .text-content {
+        max-width: 100%;
+    }
+}

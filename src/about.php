@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/about.css">
 </head>
@@ -33,6 +33,21 @@
             </div>
         </div>
     </header>
+
+    <div id="container">
+    <h1>Over ons</h1>
+    <div class="content-wrapper">
+        <div class="text-content">
+            <p>Bij KrasHosting staan we klaar om bedrijven uit het midden- en kleinbedrijf (MKB) te voorzien van betrouwbare en hoogwaardige hostingfaciliteiten. Of het nu gaat om het hosten van websites, het beheren van webapplicaties of het bieden van veilige opslag, wij zorgen voor een solide digitale basis.
+            Als jong en dynamisch bedrijf zitten we in de opstartfase en werken we met een gedreven team aan de toekomst. Ons team bestaat uit een product owner, een scrum master en een gepassioneerd development team, die samen werken aan innovatieve en efficiënte oplossingen.
+            Bij KrasHosting geloven we in flexibiliteit, klantgerichtheid en technologische vooruitgang. We blijven continu verbeteren en innoveren, zodat onze klanten altijd kunnen rekenen op de beste hostingoplossingen.
+            Wil je meer weten over onze diensten of heb je vragen? Neem gerust contact met ons op!</p>
+        </div>
+        <div class="image-content">
+            <img src="img/paars.png" alt="KrasHosting">
+        </div>
+    </div>
+</div>
 </body>
 
 </html>
