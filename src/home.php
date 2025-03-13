@@ -37,8 +37,8 @@
             </div>
         </div>
     </header>
-    <h1>Home</h1>
-    
+
+
     <div class="hero">
         <h1 class="heroTextKlein">Hosting services</h1>
         <h1 class="heroTextGroot">KRAS HOSTING</h1>
