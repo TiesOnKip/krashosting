@@ -34,6 +34,181 @@
         </div>
     </header>
     <h1>Producten</h1>
+    <div class="container">
+    <div class="card-container">
+    <div class="card-inner">
+      <div class="header">
+        <h2>BEGINNER</h2>
+        <p>PER MAAND</p>
+      </div>
+      
+      <div class="features">
+        <div class="feature">
+            <img src="./img/vinkje.png" alt="">
+          <div class="feature-text">
+            Lorem ipsum dolor sit<br>amet
+          </div>
+        </div>
+        
+        <div class="feature">
+        <img src="./img/kruisje.png" alt="">
+        <div class="feature-text">
+            Lorem ipsum dolor sit<br>amet
+          </div>
+        </div>
+        
+        <div class="feature">
+        <img src="./img/kruisje.png" alt="">
+        <div class="feature-text">
+            Lorem ipsum dolor sit<br>amet
+          </div>
+        </div>
+        
+        <div class="feature">
+        <img src="./img/kruisje.png" alt="">
+        <div class="feature-text">
+            Lorem ipsum dolor sit<br>amet
+          </div>
+        </div>
+      </div>
+      <a href="details.php">
+      <button class="buy-button">KOOP NU</button>
+      </a>
+      
+      <div class="price-outline"></div>
+      <div class="price-circle">€5</div>
+    </div>
+  </div>
+  <div class="card-container dynamisch">
+    <div class="card-inner">
+      <div class="header dynamisch">
+        <h2>DYNAMISCH</h2>
+        <p>PER MAAND</p>
+      </div>
+      
+      <div class="features">
+        <div class="feature">
+            <img src="./img/vinkje.png" alt="">
+          <div class="feature-text">
+            Lorem ipsum dolor sit<br>amet
+          </div>
+        </div>
+        
+        <div class="feature">
+        <img src="./img/vinkje.png" alt="">
+        <div class="feature-text">
+            Lorem ipsum dolor sit<br>amet
+          </div>
+        </div>
+        
+        <div class="feature">
+        <img src="./img/kruisje.png" alt="">
+        <div class="feature-text">
+            Lorem ipsum dolor sit<br>amet
+          </div>
+        </div>
+        
+        <div class="feature">
+        <img src="./img/kruisje.png" alt="">
+        <div class="feature-text">
+            Lorem ipsum dolor sit<br>amet
+          </div>
+        </div>
+      </div>
+      <a href="details.php">
+      <button class="buy-button dynamisch">KOOP NU</button>
+      </a>
+      <div class="price-outline dynamisch"></div>
+      <div class="price-circle p-dynamisch">€8</div>
+    </div>
+  </div>
+  <div class="card-container gevorderd">
+    <div class="card-inner">
+      <div class="header gevorderd">
+        <h2>GEVORDERD</h2>
+        <p>PER MAAND</p>
+      </div>
+      
+      <div class="features">
+        <div class="feature">
+            <img src="./img/vinkje.png" alt="">
+          <div class="feature-text">
+            Lorem ipsum dolor sit<br>amet
+          </div>
+        </div>
+        
+        <div class="feature">
+        <img src="./img/vinkje.png" alt="">
+        <div class="feature-text">
+            Lorem ipsum dolor sit<br>amet
+          </div>
+        </div>
+        
+        <div class="feature">
+        <img src="./img/vinkje.png" alt="">
+        <div class="feature-text">
+            Lorem ipsum dolor sit<br>amet
+          </div>
+        </div>
+        
+        <div class="feature">
+        <img src="./img/kruisje.png" alt="">
+        <div class="feature-text">
+            Lorem ipsum dolor sit<br>amet
+          </div>
+        </div>
+      </div>
+      <a href="details.php">
+      <button class="buy-button gevorderd">KOOP NU</button>
+      </a>
+      <div class="price-outline gevorderd"></div>
+      <div class="price-circle p-gevorderd">€12</div>
+    </div>
+  </div>
+  <div class="card-container ultimate">
+    <div class="card-inner">
+      <div class="header ultimate">
+        <h2>ULTIMATE</h2>
+        <p>PER MAAND</p>
+      </div>
+      
+      <div class="features">
+        <div class="feature">
+            <img src="./img/vinkje.png" alt="">
+          <div class="feature-text">
+            Lorem ipsum dolor sit<br>amet
+          </div>
+        </div>
+        
+        <div class="feature">
+        <img src="./img/vinkje.png" alt="">
+        <div class="feature-text">
+            Lorem ipsum dolor sit<br>amet
+          </div>
+        </div>
+        
+        <div class="feature">
+        <img src="./img/vinkje.png" alt="">
+        <div class="feature-text">
+            Lorem ipsum dolor sit<br>amet
+          </div>
+        </div>
+        
+        <div class="feature">
+        <img src="./img/vinkje.png" alt="">
+        <div class="feature-text">
+            Lorem ipsum dolor sit<br>amet
+          </div>
+        </div>
+      </div>
+      <a href="details.php">
+      <button class="buy-button ultimate">KOOP NU</button>
+      </a>
+      <div class="price-outline ultimate"></div>
+      <div class="price-circle p-ultimate">€20</div>
+    </div>
+  </div>
+</div>
 </body>
 
 </html>

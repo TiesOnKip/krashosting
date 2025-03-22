@@ -33,6 +33,69 @@
             </div>
         </div>
     </header>
+    <div class="content" id="loginContent">
+        <h1>Inloggen</h1>
+        
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="username">Gebruikersnaam:</label>
+                <input type="text" id="username" name="username">
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Wachtwoord:</label>
+                <input type="password" id="password" name="password">
+            </div>
+            
+            <button type="submit" class="login-button">Log in</button>
+        </form>
+        
+        <div id="errorMessage" class="message error hidden">
+            Ongeldige gebruikersnaam of wachtwoord. Probeer opnieuw.
+        </div>
+        
+        <div id="credentialsInfo" class="message" style="background-color: #e2e3e5; color: #383d41; border: 1px solid #d6d8db;">
+            <strong>Gebruik voor demonstratie:</strong><br>
+            Gebruikersnaam: admin<br>
+            Wachtwoord: welkom123
+        </div>
+    </div>
+    <img class="img" src="./img/paars.png" alt="noh">
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const validUsername = 'admin';
+            const validPassword = 'welkom123';
+            
+            const loginForm = document.getElementById('loginForm');
+            const errorMessage = document.getElementById('errorMessage');
+            
+            if (localStorage.getItem('loggedIn') === 'true') {
+                window.location.href = 'home.php';
+            }
+            
+            if (window.location.pathname.endsWith('dashboard.php') && localStorage.getItem('loggedIn') !== 'true') {
+                window.location.href = 'index.html';
+            }
+            
+            loginForm.addEventListener('submit', function(event) {
+                event.preventDefault();
+                
+                const username = document.getElementById('username').value;
+                const password = document.getElementById('password').value;
+                
+                if (username === validUsername && password === validPassword) {
+                    localStorage.setItem('loggedIn', 'true');
+                    localStorage.setItem('username', username);
+                    
+                    window.location.href = 'home.php';
+                } else {
+                    errorMessage.classList.remove('hidden');
+                    document.getElementById('password').value = '';
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

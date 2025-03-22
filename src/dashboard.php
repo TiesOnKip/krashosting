@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/dashboard.css">
+    <script src="./js/dashboard.js"></script>
 </head>
 
 <body>
@@ -15,10 +16,12 @@
             <img src="./img/logo.svg" alt="logo">
         </a>
         <div id="links-wrapper">
+
             <a class="link" href="home.php">Home</a>
             <a class="link" href="about.php">Over</a>
             <a class="link" href="producten.php">Producten</a>
             <a class="link" href="contact.php">Contact</a>
+            <a class="link" onclick="logOut()">Uitloggen</a>
             <div id="icon-wrapper">
                 <a class="icon" id="account" href="dashboard.php">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -32,6 +35,7 @@
                 </a>
             </div>
         </div>
+
     </header>
    
 </body>
