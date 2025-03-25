@@ -41,16 +41,16 @@
     <p class="contactText">Neem contact met ons op</p>
 
     <form class="form" action="">
-        <label for="name">Naam</label>
-        <input type="text" id="name" name="name" placeholder="Uw naam..">
+        <label class="formNaam" for="name">Naam</label>
+        <input class="formNaamInput" type="text" id="name" name="name">
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Uw email..">
+        <label class="formEmail" for=" email">Email</label>
+        <input class="formEmailInput" type="email" id="email" name="email">
 
-        <label for="subject">Vraag</label>
-        <textarea id="subject" name="subject" placeholder="Schrijf iets.."></textarea>
+        <label class="formVraag" for="subject">Vraag</label>
+        <textarea class="formVraagInput" id="subject" name="subject"></textarea>
 
-        <input type="submit" value="Verzenden">
+        <input class="submit" type="submit" value="Verzenden">
     </form>
 
     <h1 class="faqTitel">Faq</h1>

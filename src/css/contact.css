@@ -2,7 +2,134 @@
 
 h1 {
     font-size: 2.5rem;
-    margin-bottom: 30px;
-    border-left: 6px solid orange;
-    padding-left: 14px;
+    margin-bottom: 2rem;
+    border-left: 0.375rem solid orange;
+    padding-left: 0.875rem;
+}
+
+.contactTitel {
+    width: 20%;
+    height: auto;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 12rem;
+    left: 15%;
+}
+
+.contactText {
+    color: #000;
+    font-family: "Anek Bangla";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: absolute;
+    width: 20%;
+    height: auto;
+    top: 16rem;
+    left: 17%;
+}
+
+.formNaam {
+    color: #000;
+    font-family: "Anek Bangla";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 22rem;
+    left: 15%;
+}
+
+.formNaamInput {
+    width: 25%;
+    height: auto;
+    border-radius: 0.625rem;
+    border: 0.3125rem solid #D9D9D9;
+    background: #FFF;
+    flex-shrink: 0;
+    position: absolute;
+    top: 26rem;
+    left: 15%;
+    padding: 0.5rem; /* Added padding */
+    font-size: 1rem; /* Increased font size */
+}
+
+.formEmail {
+    color: #000;
+    font-family: "Anek Bangla";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 30rem;
+    left: 15%;
+}
+
+.formEmailInput {
+    width: 25%;
+    height: auto;
+    border-radius: 0.625rem;
+    border: 0.3125rem solid #D9D9D9;
+    background: #FFF;
+    flex-shrink: 0;
+    position: absolute;
+    top: 34rem;
+    left: 15%;
+    padding: 0.5rem; /* Added padding */
+    font-size: 1rem; /* Increased font size */
+}
+
+.formVraag {
+    color: #000;
+    font-family: "Anek Bangla";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 38rem;
+    left: 15%;
+}
+
+.formVraagInput {
+    width: 25%;
+    height: 5rem;
+    border-radius: 0.625rem;
+    border: 0.3125rem solid #D9D9D9;
+    background: #FFF;
+    flex-shrink: 0;
+    position: absolute;
+    top: 42rem;
+    left: 15%;
+    padding: 0.5rem; /* Added padding */
+    font-size: 1rem; /* Increased font size */
+}
+
+.submit {
+    width: 10%;
+    height: 4rem;
+    border-radius: 0.9375rem;
+    background: var(--Red, #F34F3A);
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: "Anek Bangla";
+    font-size: 1.25rem;
+    position: absolute;
+    top: 50rem;
+    left: 15%;
 }
