@@ -66,17 +66,17 @@
     </div>
     <div class="dynamisch">
         <img src="img/bloem.svg" alt="">
-        <p class="dynamischText">dynamisch</p>
+        <p class="dynamischText">Dynamisch</p>
         <p class="dynamischPrijs">€8</p>
     </div>
     <div class="gevorderd">
         <img src="img/bloem.svg" alt="">
-        <p class="gevorderdText">gevorderd</p>
+        <p class="gevorderdText">Gevorderd</p>
         <p class="gevorderdPrijs">€12</p>
     </div>
     <div class="ultimate">
         <img src="img/bloem.svg" alt="">
-        <p class="ultimateText">ultimate</p>
+        <p class="ultimateText">Ultimate</p>
         <p class="ultimatePrijs">€20</p>
     </div>
 </body>
