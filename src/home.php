@@ -40,43 +40,44 @@
 
 
     <div class="hero">
-        <h1 class="heroTextKlein">Hosting services</h1>
-        <h1 class="heroTextGroot">KRAS HOSTING</h1>
+        <div class="heroTextKlein">Hosting services</div>
+        <div class="heroTextContainer">
+            <div class="heroTextGroot1">KRAS</div>
+            <div class="heroTextGroot2">HOSTING </div>
+        </div>
     </div>
 
 
-    <h3 class="onsProgrammaTitel">Ons Programma</h3>
-    <p class="onsProgrammaText">Onze beste fitness expers helpen je met nieuwe technieken</p>
 
-    <h3 class="vandaagTitel">Vandaag</h3>
+    <h1 class="vandaagTitel">Vandaag</h1>
     <p class="vandaagText"> Fijne dag vandaag</p>
 
-    <h3 class="gisterenTitel">Gisteren </h3>
-    <p class="gisterenText"> Fijne dag vandaag/p>
+    <h1 class="gisterenTitel">Gisteren </h1>
+    <p class="gisterenText"> Fijne dag vandaag </p>
+
+    <h1 class="onsProgrammaTitel">Ons Programma</h1>
+    <p class="onsProgrammaText">Onze beste fitness expers helpen je met nieuwe technieken</p>
+
 
     <div class="beginner">
-        <!-- // hier komt de img van de bloem -->
-        <img src="" alt="">
-        <p class="beginner-text">beginner</p>
-        <p class="beginner-prijs">€5</p>
+        <img src="img/bloem.svg" alt="">
+        <p class="beginnerText">Beginner</p>
+        <p class="beginnerPrijs">€5</p>
     </div>
     <div class="dynamisch">
-        <!-- // hier komt de img van de bloem -->
-        <img src="" alt="">
-        <p class="dynamisch-text">dynamisch</p>
-        <p class="dynamisch-prijs">€8</p>
+        <img src="img/bloem.svg" alt="">
+        <p class="dynamischText">dynamisch</p>
+        <p class="dynamischPrijs">€8</p>
     </div>
     <div class="gevorderd">
-        <!-- // hier komt de img van de bloem -->
-        <img src="" alt="">
-        <p class="gevorderd-text">gevorderd</p>
-        <p class="gevorderd-prijs">€12</p>
+        <img src="img/bloem.svg" alt="">
+        <p class="gevorderdText">gevorderd</p>
+        <p class="gevorderdPrijs">€12</p>
     </div>
     <div class="ultimate">
-        <!-- // hier komt de img van de bloem -->
-        <img src="" alt="">
-        <p class="ultimate-text">ultimate</p>
-        <p class="ultimate-prijs">€20</p>
+        <img src="img/bloem.svg" alt="">
+        <p class="ultimateText">ultimate</p>
+        <p class="ultimatePrijs">€20</p>
     </div>
 </body>
 
