@@ -19,6 +19,7 @@ h1 {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
+  margin-bottom: 30px;
   background-color: var(--white);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -54,4 +55,5 @@ h1 {
   color: var(--purple);
   font-family: var(--anek);
   margin-top: 20px;
+  margin-bottom: 20px;
 }
