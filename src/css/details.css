@@ -1,1 +1,57 @@
 @import url('../css/main.css');
+
+h1 {
+    font-size: 2.5rem;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-left: 2px solid orange;
+    font-family: var(--anek);
+    width: 160px;
+}
+
+#hosting-packages {
+  padding: 20px;
+  text-align: center;
+}
+
+.packages-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: var(--white);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.packages-table th,
+.packages-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-family: var(--anek);
+}
+
+.packages-table th {
+  background-color: var(--purple);
+  color: var(--white);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.packages-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.packages-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+.custom-package {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--purple);
+  font-family: var(--anek);
+  margin-top: 20px;
+}

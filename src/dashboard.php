@@ -38,6 +38,23 @@
 
     </header>
    
+
+    <footer>
+        <div>
+            <img src="./img/logo.svg" alt="KrasHosting Logo">
+            <div id="logo-box">
+                <p>KRAS
+                <p class="red">HOSTING</p>
+                </p>
+            </div>
+        </div>
+        <div class="contact-info">
+            <p>Neem contact op:</p>
+            <a href="tel:+31612345678">+31 6 12345678</a>
+            <a href="mailto:info@krashosting.nl">info@krashosting.nl</a>
+            <p>Adres: Kasteeldreef 122, 5046 CV Tilburg</p>
+        </div>
+    </footer>
 </body>
 
 </html>
