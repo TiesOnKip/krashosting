@@ -57,21 +57,21 @@
     <p class="faqText">Veel gestelde vragen</p>
 
     <div class="faqVragen">
-        <div class="faqItem">
-            <div class="faqQuestion">
+        <div class="faqItem1">
+            <div class="faqQuestion1">
                 <span>Ik heb het verkeerde product besteld!</span>
                 <span class="arrow">&#9660;</span>
             </div>
-            <div class="faqAnswer" style="display: none;">
+            <div class="faqAnswer1" style="display: none;">
                 <p>Stuur ons zo snel mogelijk een bericht, wij lossen het op!</p>
             </div>
         </div>
-        <div class="faqItem">
-            <div class="faqQuestion">
+        <div class="faqItem2">
+            <div class="faqQuestion2">
                 <span>Hoe kan ik contact opnemen?</span>
                 <span class="arrow">&#9660;</span>
             </div>
-            <div class="faqAnswer" style="display: none;">
+            <div class="faqAnswer2" style="display: none;">
                 <p>U kunt ons altijd bellen via ons telefoonnummer: 06827383939 <br>
                     Of via het contact formulier</p>
             </div>
@@ -79,7 +79,7 @@
     </div>
 
     <script>
-        document.querySelectorAll('.faqQuestion').forEach(item => {
+        document.querySelectorAll('.faqQuestion1, .faqQuestion2').forEach(item => {
             item.addEventListener('click', () => {
                 const answer = item.nextElementSibling;
                 const arrow = item.querySelector('.arrow');
