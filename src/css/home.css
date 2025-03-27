@@ -181,6 +181,7 @@ h1 {
 .gevorderdPrijs,
 .ultimatePrijs {
     color: #000;
+<<<<<<< HEAD
     font-family: "Anek Bangla", sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -240,4 +241,52 @@ h1 {
 /* Right section styling */
 .right-section>div {
     margin-bottom: 40px;
+=======
+    font-family: "Anek Bangla";
+    font-size: 12px; 
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: relative;
+    top: 1.5px; 
+    left: 7.5px; 
+}
+
+.product-button {
+    display: inline-block;
+    background-color: var(--purple);
+    color: white;
+    font-family: "TT Backwards Sans Trial", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    padding: 4px 8px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 7.5px;
+    right: 7.5px;
+    transition: background-color 0.2s ease;
+}
+
+.product-button:hover {
+    background-color: var(--red);
+}
+
+
+.beginner .product-button {
+    background-color: #8550c0;
+}
+
+.dynamisch .product-button {
+    background-color: #4da0c0;
+}
+
+.gevorderd .product-button {
+    background-color: #4cb546;
+}
+
+.ultimate .product-button {
+    background-color: #d74f3c;
+>>>>>>> 1df08ab05843d381bd6e263750e423aab01ece28
 }

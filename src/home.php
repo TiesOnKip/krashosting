@@ -113,6 +113,42 @@ $conn->close();
         </div>
 
 
+<<<<<<< HEAD
+=======
+    <h1 class="vandaagTitel">Vandaag</h1>
+    <p class="vandaagText"> Fijne dag vandaag</p>
+
+    <h1 class="gisterenTitel">Gisteren </h1>
+    <p class="gisterenText"> Fijne dag vandaag </p>
+
+    <h1 class="onsProgrammaTitel">Ons Programma</h1>
+    <p class="onsProgrammaText">Onze beste fitness expers helpen je met nieuwe technieken</p>
+
+
+    <div class="beginner">
+        <img src="img/bloem.svg" alt="">
+        <p class="beginnerText">Beginner</p>
+        <p class="beginnerPrijs">€5</p>
+        <a href="producten.php" class="product-button">Meer info</a>
+    </div>
+    <div class="dynamisch">
+        <img src="img/bloem.svg" alt="">
+        <p class="dynamischText">Dynamisch</p>
+        <p class="dynamischPrijs">€8</p>
+        <a href="producten.php" class="product-button">Meer info</a>
+    </div>
+    <div class="gevorderd">
+        <img src="img/bloem.svg" alt="">
+        <p class="gevorderdText">Gevorderd</p>
+        <p class="gevorderdPrijs">€12</p>
+        <a href="producten.php" class="product-button">Meer info</a>
+    </div>
+    <div class="ultimate">
+        <img src="img/bloem.svg" alt="">
+        <p class="ultimateText">Ultimate</p>
+        <p class="ultimatePrijs">€20</p>
+        <a href="producten.php" class="product-button">Meer info</a>
+>>>>>>> 1df08ab05843d381bd6e263750e423aab01ece28
     </div>
 
     <section id="nieuwsberichten">
