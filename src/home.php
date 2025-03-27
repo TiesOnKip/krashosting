@@ -1,19 +1,17 @@
 <?php
-// Database configuratie (zelfde als dashboard.php)
-$db_host = "localhost"; // Pas dit aan indien nodig
-$db_user = "root"; // Vervang dit door jouw database gebruikersnaam
-$db_pass = ""; // Vervang dit door jouw database wachtwoord
-$db_name = "krashosting"; // Vervang dit door jouw database naam
+session_start();
 
-// Verbinding maken met de database
+$db_host = "localhost";
+$db_user = "root";
+$db_pass = "";
+$db_name = "krashosting";
+
 $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
 
-// Check de connectie
 if ($conn->connect_error) {
     die("Connectie gefaald: " . $conn->connect_error);
 }
 
-// Haal de laatste nieuwsberichten op
 $sql = "SELECT titel, content, datum FROM nieuwsberichten ORDER BY datum DESC LIMIT 3";
 $result = $conn->query($sql);
 
@@ -112,55 +110,17 @@ $conn->close();
             </div>
         </div>
 
-
-<<<<<<< HEAD
-=======
-    <h1 class="vandaagTitel">Vandaag</h1>
-    <p class="vandaagText"> Fijne dag vandaag</p>
-
-    <h1 class="gisterenTitel">Gisteren </h1>
-    <p class="gisterenText"> Fijne dag vandaag </p>
-
-    <h1 class="onsProgrammaTitel">Ons Programma</h1>
-    <p class="onsProgrammaText">Onze beste fitness expers helpen je met nieuwe technieken</p>
-
-
-    <div class="beginner">
-        <img src="img/bloem.svg" alt="">
-        <p class="beginnerText">Beginner</p>
-        <p class="beginnerPrijs">€5</p>
-        <a href="producten.php" class="product-button">Meer info</a>
+        <section id="nieuwsberichten">
+            <h2>Laatste Nieuws</h2>
+            <?php foreach ($nieuwsberichten as $nieuwsbericht): ?>
+                <article>
+                    <h3><?php echo htmlspecialchars($nieuwsbericht['titel']); ?></h3>
+                    <p><?php echo htmlspecialchars($nieuwsbericht['content']); ?></p>
+                    <small>Gepost op: <?php echo htmlspecialchars($nieuwsbericht['datum']); ?></small>
+                </article>
+            <?php endforeach; ?>
+        </section>
     </div>
-    <div class="dynamisch">
-        <img src="img/bloem.svg" alt="">
-        <p class="dynamischText">Dynamisch</p>
-        <p class="dynamischPrijs">€8</p>
-        <a href="producten.php" class="product-button">Meer info</a>
-    </div>
-    <div class="gevorderd">
-        <img src="img/bloem.svg" alt="">
-        <p class="gevorderdText">Gevorderd</p>
-        <p class="gevorderdPrijs">€12</p>
-        <a href="producten.php" class="product-button">Meer info</a>
-    </div>
-    <div class="ultimate">
-        <img src="img/bloem.svg" alt="">
-        <p class="ultimateText">Ultimate</p>
-        <p class="ultimatePrijs">€20</p>
-        <a href="producten.php" class="product-button">Meer info</a>
->>>>>>> 1df08ab05843d381bd6e263750e423aab01ece28
-    </div>
-
-    <section id="nieuwsberichten">
-        <h2>Laatste Nieuws</h2>
-        <?php foreach ($nieuwsberichten as $nieuwsbericht): ?>
-            <article>
-                <h3><?php echo htmlspecialchars($nieuwsbericht['titel']); ?></h3>
-                <p><?php echo htmlspecialchars($nieuwsbericht['content']); ?></p>
-                <small>Gepost op: <?php echo htmlspecialchars($nieuwsbericht['datum']); ?></small>
-            </article>
-        <?php endforeach; ?>
-    </section>
 
     <footer>
         <div>

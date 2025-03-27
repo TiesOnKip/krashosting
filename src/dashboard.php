@@ -6,15 +6,12 @@ $db_user = "root";
 $db_pass = "";
 $db_name = "krashosting";
 
-// Verbinding maken met de database
 $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
 
-// Check de connectie
 if ($conn->connect_error) {
     die("Connectie gefaald: " . $conn->connect_error);
 }
 
-// Variabelen initialiseren om errors op te vangen
 $titelErr = $contentErr = "";
 $titel = $content = "";
 
@@ -27,14 +24,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $titel = test_input($_POST["titel"]);
     }
 
-    // Content validatie
     if (empty($_POST["content"])) {
         $contentErr = "Content is verplicht";
     } else {
         $content = test_input($_POST["content"]);
     }
 
-    // Als er geen errors zijn, voeg het nieuwsbericht toe aan de database
     if (empty($titelErr) && empty($contentErr)) {
         $sql = "INSERT INTO nieuwsberichten (titel, content) VALUES (?, ?)";
         $stmt = $conn->prepare($sql);
