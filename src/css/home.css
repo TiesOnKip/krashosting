@@ -1,6 +1,6 @@
 @import url('main.css');
 body {
-  height: 1550px;
+  height: 1300px;
 }
 h1 {
     font-size: 2.5rem;
@@ -152,7 +152,7 @@ h1 {
     background: #9C65D5;
     flex-shrink: 0;
     position: absolute;
-    top: 749px;
+    top: 670px;
     left: 154px;
 }
 
@@ -193,7 +193,7 @@ h1 {
     background: #60B4D4;
     flex-shrink: 0;
     position: absolute;
-    top: 748px;
+    top: 670px;
     left: 358px;
 }
 
@@ -235,7 +235,7 @@ h1 {
    position: absolute;
    width: 187;
    height: 142;
-   top: 904px;
+   top: 826px;
    left: 154px;
    border-radius: 26px;
 }
@@ -278,7 +278,7 @@ h1 {
     position: absolute;
     width: 187;
     height: 142;
-    top: 904px;
+    top: 826px;
     left: 358px;
     border-radius: 26px;
  

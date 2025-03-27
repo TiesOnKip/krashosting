@@ -3,8 +3,8 @@
 h1 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    border-left: 0.375rem solid orange;
-    padding-left: 0.875rem;
+    border-left: 0.37rem solid orange;
+    padding-left: 0.87rem;
 }
 
 .contactTitel {
@@ -53,15 +53,15 @@ h1 {
 .formNaamInput {
     width: 25%;
     height: auto;
-    border-radius: 0.625rem;
-    border: 0.3125rem solid #D9D9D9;
+    border-radius: 0.63rem;
+    border: 0.31rem solid #D9D9D9;
     background: #FFF;
     flex-shrink: 0;
     position: absolute;
     top: 26rem;
     left: 15%;
-    padding: 0.5rem; /* Added padding */
-    font-size: 1rem; /* Increased font size */
+    padding: 0.5rem; 
+    font-size: 1rem; 
 }
 
 .formEmail {
@@ -81,15 +81,15 @@ h1 {
 .formEmailInput {
     width: 25%;
     height: auto;
-    border-radius: 0.625rem;
-    border: 0.3125rem solid #D9D9D9;
+    border-radius: 0.63rem;
+    border: 0.31rem solid #D9D9D9;
     background: #FFF;
     flex-shrink: 0;
     position: absolute;
     top: 34rem;
     left: 15%;
-    padding: 0.5rem; /* Added padding */
-    font-size: 1rem; /* Increased font size */
+    padding: 0.5rem; 
+    font-size: 1rem; 
 }
 
 .formVraag {
@@ -109,21 +109,21 @@ h1 {
 .formVraagInput {
     width: 25%;
     height: 5rem;
-    border-radius: 0.625rem;
-    border: 0.3125rem solid #D9D9D9;
+    border-radius: 0.63rem;
+    border: 0.31rem solid #D9D9D9;
     background: #FFF;
     flex-shrink: 0;
     position: absolute;
     top: 42rem;
     left: 15%;
-    padding: 0.5rem; /* Added padding */
-    font-size: 1rem; /* Increased font size */
+    padding: 0.5rem; 
+    font-size: 1rem; 
 }
 
 .submit {
     width: 10%;
     height: 4rem;
-    border-radius: 0.9375rem;
+    border-radius: 0.94rem;
     background: var(--Red, #F34F3A);
     flex-shrink: 0;
     color: #FFF;
@@ -250,4 +250,125 @@ h1 {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+}
+
+@media (max-width: 1920px) and (max-height: 1080px) {
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+        border-left-width: 0.3rem;
+        padding-left: 0.7rem;
+    }
+
+    .contactTitel {
+        width: 15%;
+        top: 9rem;
+        left: 12%;
+        font-size: 3rem;
+    }
+
+    .contactText {
+        width: 15%;
+        top: 12rem;
+        left: 13%;
+        font-size: 1.2rem;
+    }
+
+    .formNaam {
+        top: 15rem;
+        left: 12%;
+        font-size: 1.4rem;
+    }
+
+    .formNaamInput {
+        width: 20%;
+        top: 18rem;
+        left: 12%;
+        padding: 0.4rem;
+        font-size: 0.9rem;
+    }
+
+    .formEmail {
+        top: 22rem;
+        left: 12%;
+        font-size: 1.4rem;
+    }
+
+    .formEmailInput {
+        width: 20%;
+        top: 25rem;
+        left: 12%;
+        padding: 0.4rem;
+        font-size: 0.9rem;
+    }
+
+    .formVraag {
+        top: 29rem;
+        left: 12%;
+        font-size: 1.4rem;
+    }
+
+    .formVraagInput {
+        width: 20%;
+        height: 4rem;
+        top: 32rem;
+        left: 12%;
+        padding: 0.4rem;
+        font-size: 0.9rem;
+    }
+
+    .submit {
+        width: 8%;
+        height: 3rem;
+        top: 38rem;
+        left: 12%;
+        font-size: 1rem;
+    }
+
+    .faqTitel {
+        width: 200px;
+        height: 55px;
+        top: 150px;
+        left: 1300px;
+        font-size: 48px;
+    }
+
+    .faqText {
+        width: 15%;
+        top: 210px;
+        left: 1320px;
+        font-size: 16px;
+    }
+
+    .faqQuestion1 {
+        width: 350px;
+        height: 45px;
+        top: 311px; 
+        left: 1310px; 
+        font-size: 16px;
+    }
+
+    .faqAnswer1 {
+        width: 350px;
+        height: 45px;
+        top: 365px; 
+        left: 1310px; 
+        font-size: 14px;
+    }
+
+    .faqQuestion2 {
+        width: 350px;
+        height: 45px;
+        top: 420px; 
+        left: 1310px; 
+        font-size: 16px;
+    }
+
+    .faqAnswer2 {
+        width: 350px;
+        height: 100px;
+        top: 480px; 
+        left: 1310px; 
+        font-size: 16px;
+    }
 }
