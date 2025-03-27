@@ -1,6 +1,5 @@
 <?php
 session_start();
-// Database configuratie
 $db_host = "localhost";
 $db_user = "root";
 $db_pass = "";
@@ -15,9 +14,7 @@ if ($conn->connect_error) {
 $titelErr = $contentErr = "";
 $titel = $content = "";
 
-// Formulier verwerking
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Titel validatie
     if (empty($_POST["titel"])) {
         $titelErr = "Titel is verplicht";
     } else {
