@@ -5,6 +5,7 @@ h1 {
     margin-bottom: 2rem;
     border-left: 0.37rem solid orange;
     padding-left: 0.87rem;
+   
 }
 
 .contactTitel {
@@ -138,7 +139,7 @@ h1 {
     height: 73px;
     flex-shrink: 0;
     color: #000;
-    font-family: Inter;
+    font-family: var(--anek);
     font-size: 60px;
     font-style: normal;
     font-weight: 700;
@@ -146,7 +147,7 @@ h1 {
     position: absolute;
     width: 269;
     height: 73;
-    top: 194px;
+    top: 150px;
     left: 1287px;
 
 }
@@ -257,11 +258,12 @@ h1 {
         margin-bottom: 1.125rem;
         border-left-width: 0.225rem;
         padding-left: 0.525rem;
+       
     }
 
     .contactTitel {
         width: 11.25%;
-        top: 6.75rem;
+        top: 6.3rem;
         left: 9%;
         font-size: 2.25rem;
     }
@@ -326,9 +328,9 @@ h1 {
 
     .faqTitel {
         width: 150px;
-        height: 41.25px;
-        top: 112.5px;
-        left: 825px;
+       
+        top: 100px;
+        left: 827px;
         font-size: 36px;
     }
 
