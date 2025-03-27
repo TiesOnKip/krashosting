@@ -1,12 +1,13 @@
 @import url('main.css');
 body {
-  height: 1300px;
+    height: 975px; 
 }
+
 h1 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-    border-left: 3px solid orange;
-    padding-left: 14px;
+    font-size: 1.8rem; 
+    margin-bottom: 22.5px; 
+    border-left: 2.25px solid orange; 
+    padding-left: 10.5px; 
 }
 
 .hero {
@@ -16,18 +17,18 @@ h1 {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 300px;
+    height: 225px;
     font-family: "TT Backwards Sans Trial";
 }
 
 .heroTextKlein {
     color: #FFF;
     font-family: "TT Backwards Sans Trial";
-    font-size: 40px;
+    font-size: 30px; 
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 20px; /* Add some space between klein and groot texts */
+    margin-bottom: 15px; 
 }
 
 .heroTextContainer {
@@ -37,279 +38,282 @@ h1 {
 }
 
 .heroTextGroot1 {
-    width: 453px;
+    width: 339.75px; 
     color: #FFF;
     font-family: "TT Backwards Sans Trial";
-    font-size: 160px;
+    font-size: 120px; 
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    letter-spacing: 20px;
+    letter-spacing: 15px; 
 }
 
 .heroTextGroot2 {
-    width: 453px;
+    width: 339.75px; 
     color: #F34F3A;
     font-family: "TT Backwards Sans Trial";
-    font-size: 160px;
+    font-size: 120px; 
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    letter-spacing: 20px;
-    margin-left: -30px;
-    margin-right: 230px;
+    letter-spacing: 15px; 
+    margin-left: -22.5px; 
+    margin-right: 172.5px; 
 }
 
 .vandaagTitel {
     color: #000;
     font-family: Inter;
-    font-size: 30px;
+    font-size: 22.5px; 
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     position: absolute;
-    width: 128px;
-    height: 36px;
-    top: 460px;
-    left: 965px;
+    width: 96px; 
+    height: 27px; 
+    top: 345px; 
+    left: 723.75px; 
 }
 
 .vandaagText {
     color: #000;
     font-family: "Anek Bangla";
-    font-size: 20px;
+    font-size: 15px; 
     font-style: normal;
     font-weight: 300;
-    line-height: 120%; /* 24px */
+    line-height: 90%; 
     position: absolute;
-    width: 147px;
-    height: 24px;
-    top: 506px;
-    left: 965px;
+    width: 110.25px; 
+    height: 18px; 
+    top: 379.5px; 
+    left: 723.75px; 
 }
 
 .gisterenTitel {
     color: #000;
     font-family: Inter;
-    font-size: 30px;
+    font-size: 22.5px; 
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     position: absolute;
-    width: 125px;
-    height: 36px;
-    top: 600px;
-    left: 965px;
+    width: 96px; 
+    height: 27px; 
+    top: 450px; 
+    left: 723.75px; 
 }
 
 .gisterenText {
     color: #000;
     font-family: "Anek Bangla";
-    font-size: 20px;
+    font-size: 15px; 
     font-style: normal;
     font-weight: 300;
-    line-height: 120%; /* 24px */
+    line-height: 90%; 
     position: absolute;
-    width: 147px;
-    height: 24px;
-    top: 646px;
-    left: 965px;
+    width: 110.25px; 
+    height: 18px; 
+    top: 484.5px; 
+    left: 723.75px; 
 }
 
 .onsProgrammaTitel {
     color: #000;
     font-family: Inter;
-    font-size: 30px;
+    font-size: 22.5px; 
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     position: absolute;
-    width: 233px;
-    height: 36px;
-    top: 460px;
-    left: 154px;
+    width: 174.75px; 
+    height: 27px; 
+    top: 345px; 
+    left: 115.5px; 
 }
 
 .onsProgrammaText {
     color: #000;
     font-family: "Anek Bangla";
-    font-size: 20px;
+    font-size: 15px; 
     font-style: normal;
     font-weight: 300;
-    line-height: 120%; /* 24px */
+    line-height: 90%; 
     letter-spacing: -0.6px;
     position: absolute;
-    width: 450px;
-    height: 24px;
-    top: 506px;
-    left: 154px;
+    width: 337.5px; 
+    height: 18px; 
+    top: 379.5px; 
+    left: 115.5px; 
 }
 
 .beginner {
-    width: 187px;
-    height: 142px;
-    border-radius: 26px;
+    width: 140.25px; 
+    height: 106.5px; 
+    border-radius: 19.5px; 
     background: #9C65D5;
     flex-shrink: 0;
     position: absolute;
-    top: 670px;
-    left: 154px;
+    top: 502.5px; 
+    left: 115.5px; 
 }
 
 .beginner img {
     position: relative;
-    left: 10px;
-    top: 10px;
+    left: 7.5px; 
+    top: 7.5px; 
+    height: 30%;
+    width: 30%;
 }
 
 .beginnerText {
     color: #000;
     font-family: "TT Backwards Sans Trial";
-    font-size: 20px;
+    font-size: 15px; 
     font-style: normal;
-    font-weight: 700;
+    font-weight: 100;
     line-height: normal;
     position: relative;
-    left: 10px;
-    top: 10px;
+    left: 7.5px; 
+    top: 7.5px; 
 }
 
 .beginnerPrijs {
     color: #000;
     font-family: "Anek Bangla";
-    font-size: 16px;
+    font-size: 12px; 
     font-style: normal;
     font-weight: 300;
     line-height: normal;
     position: relative;
-    top: 2px;
-    left: 10px;
+    top: 1.5px; 
+    left: 7.5px; 
 }
 
 .dynamisch {
-    width: 187px;
-    height: 142px;
-    border-radius: 26px;
+    width: 140.25px; 
+    height: 106.5px; 
+    border-radius: 19.5px; 
     background: #60B4D4;
     flex-shrink: 0;
     position: absolute;
-    top: 670px;
-    left: 358px;
+    top: 502.5px; 
+    left: 268.5px; 
 }
 
 .dynamisch img {
     position: relative;
-    left: 10px;
-    top: 10px;
+    left: 7.5px; 
+    top: 7.5px; 
+    height: 30%;
+    width: 30%;
 }
 
 .dynamischText {
     color: #000;
     font-family: "TT Backwards Sans Trial";
-    font-size: 20px;
+    font-size: 15px; 
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     position: relative;
-    left: 10px;
-    top: 10px;
+    left: 7.5px; 
+    top: 7.5px; 
 }
 
 .dynamischPrijs {
     color: #000;
     font-family: "Anek Bangla";
-    font-size: 16px;
+    font-size: 12px; 
     font-style: normal;
     font-weight: 300;
     line-height: normal;
     position: relative;
-    top: 2px;
-    left: 10px;
+    top: 1.5px; 
+    left: 7.5px; 
 }
+
 .gevorderd {
-   width: 187px;
-   height: 142px;
-   border-radius: 26px;
-   background: #5BCA54;
-   flex-shrink: 0;
-   position: absolute;
-   width: 187;
-   height: 142;
-   top: 826px;
-   left: 154px;
-   border-radius: 26px;
+    width: 140.25px; 
+    height: 106.5px; 
+    border-radius: 19.5px; 
+    background: #5BCA54;
+    flex-shrink: 0;
+    position: absolute;
+    top: 619.5px; 
+    left: 115.5px; 
 }
 
 .gevorderd img {
     position: relative;
-    left: 10px;
-    top: 10px;
+    left: 7.5px;
+    top: 7.5px;
+    height: 30%;
+    width: 30%;
 }
 
 .gevorderdText {
     color: #000;
     font-family: "TT Backwards Sans Trial";
-    font-size: 20px;
+    font-size: 15px; 
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     position: relative;
-    left: 10px;
-    top: 10px;
+    left: 7.5px; 
+    top: 7.5px;
 }
 
 .gevorderdPrijs {
     color: #000;
     font-family: "Anek Bangla";
-    font-size: 16px;
+    font-size: 12px; 
     font-style: normal;
     font-weight: 300;
     line-height: normal;
     position: relative;
-    top: 2px;
-    left: 10px;
+    top: 1.5px;
+    left: 7.5px; 
 }
+
 .ultimate {
-    width: 187px;
-    height: 142px;
-    border-radius: 26px;
+    width: 140.25px;
+    height: 106.5px; 
+    border-radius: 19.5px; 
     background: #ED5E4B;
     flex-shrink: 0;
     position: absolute;
-    width: 187;
-    height: 142;
-    top: 826px;
-    left: 358px;
-    border-radius: 26px;
- 
- }
- 
- .ultimate img {
-     position: relative;
-     left: 10px;
-     top: 10px;
- }
- 
- .ultimateText {
-     color: #000;
-     font-family: "TT Backwards Sans Trial";
-     font-size: 20px;
-     font-style: normal;
-     font-weight: 700;
-     line-height: normal;
-     position: relative;
-     left: 10px;
-     top: 10px;
- }
- 
- .ultimatePrijs {
-     color: #000;
-     font-family: "Anek Bangla";
-     font-size: 16px;
-     font-style: normal;
-     font-weight: 300;
-     line-height: normal;
-     position: relative;
-     top: 2px;
-     left: 10px;
- }
+    top: 619.5px;
+    left: 268.5px; 
+}
+
+.ultimate img {
+    position: relative;
+    left: 7.5px;
+    top: 7.5px; 
+    height: 30%;
+    width: 30%;
+}
+
+.ultimateText {
+    color: #000;
+    font-family: "TT Backwards Sans Trial";
+    font-size: 15px; 
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    left: 7.5px;
+    top: 7.5px; 
+}
+
+.ultimatePrijs {
+    color: #000;
+    font-family: "Anek Bangla";
+    font-size: 12px; 
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: relative;
+    top: 1.5px; 
+    left: 7.5px; 
+}
