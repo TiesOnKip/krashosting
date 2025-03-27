@@ -12,10 +12,9 @@ h1 {
     height: auto;
     flex-shrink: 0;
     color: #000;
-    font-family: Inter;
+    font-family: var(--anek);
     font-size: 3.75rem;
     font-style: normal;
-    font-weight: 700;
     line-height: normal;
     position: absolute;
     top: 12rem;

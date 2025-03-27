@@ -1,13 +1,21 @@
-@import url('main.css');
+@import url("main.css");
+
 body {
-    height: 975px; 
+    height: auto;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
-    font-size: 1.8rem; 
-    margin-bottom: 22.5px; 
-    border-left: 2.25px solid orange; 
-    padding-left: 10.5px; 
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    border-left: 2.25px solid orange;
+    padding-left: 10.5px;
+    text-align: left;
+    font-family: var(--anek);
 }
 
 .hero {
@@ -22,13 +30,13 @@ h1 {
 }
 
 .heroTextKlein {
-    color: #FFF;
+    color: #fff;
     font-family: "TT Backwards Sans Trial";
-    font-size: 30px; 
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
 }
 
 .heroTextContainer {
@@ -38,282 +46,198 @@ h1 {
 }
 
 .heroTextGroot1 {
-    width: 339.75px; 
-    color: #FFF;
+    width: 339.75px;
+    color: #fff;
     font-family: "TT Backwards Sans Trial";
-    font-size: 120px; 
+    font-size: 120px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    letter-spacing: 15px; 
+    letter-spacing: 15px;
 }
 
 .heroTextGroot2 {
-    width: 339.75px; 
-    color: #F34F3A;
+    width: 339.75px;
+    color: #f34f3a;
     font-family: "TT Backwards Sans Trial";
-    font-size: 120px; 
+    font-size: 120px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    letter-spacing: 15px; 
-    margin-left: -22.5px; 
-    margin-right: 172.5px; 
+    letter-spacing: 15px;
+    margin-left: -22.5px;
+    margin-right: 172.5px;
 }
 
-.vandaagTitel {
-    color: #000;
-    font-family: Inter;
-    font-size: 22.5px; 
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    position: absolute;
-    width: 96px; 
-    height: 27px; 
-    top: 345px; 
-    left: 723.75px; 
+/* Main content layout */
+.main-content {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    gap: 30px;
 }
 
-.vandaagText {
-    color: #000;
-    font-family: "Anek Bangla";
-    font-size: 15px; 
-    font-style: normal;
-    font-weight: 300;
-    line-height: 90%; 
-    position: absolute;
-    width: 110.25px; 
-    height: 18px; 
-    top: 379.5px; 
-    left: 723.75px; 
+.left-section {
+    flex: 2;
 }
 
-.gisterenTitel {
-    color: #000;
-    font-family: Inter;
-    font-size: 22.5px; 
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    position: absolute;
-    width: 96px; 
-    height: 27px; 
-    top: 450px; 
-    left: 723.75px; 
+.right-section {
+    flex: 1;
 }
 
-.gisterenText {
-    color: #000;
-    font-family: "Anek Bangla";
-    font-size: 15px; 
-    font-style: normal;
-    font-weight: 300;
-    line-height: 90%; 
-    position: absolute;
-    width: 110.25px; 
-    height: 18px; 
-    top: 484.5px; 
-    left: 723.75px; 
-}
-
+.vandaagTitel,
+.gisterenTitel,
 .onsProgrammaTitel {
     color: #000;
     font-family: Inter;
-    font-size: 22.5px; 
+    font-size: 22.5px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    position: absolute;
-    width: 174.75px; 
-    height: 27px; 
-    top: 345px; 
-    left: 115.5px; 
+    text-align: left;
+    margin-bottom: 5px;
 }
 
+.vandaagText,
+.gisterenText,
 .onsProgrammaText {
     color: #000;
     font-family: "Anek Bangla";
-    font-size: 15px; 
+    font-size: 15px;
     font-style: normal;
     font-weight: 300;
-    line-height: 90%; 
-    letter-spacing: -0.6px;
-    position: absolute;
-    width: 337.5px; 
-    height: 18px; 
-    top: 379.5px; 
-    left: 115.5px; 
+    line-height: 90%;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+/* Container for the packages */
+.pakketten-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+    max-width: 300px;
+}
+
+.beginner,
+.dynamisch,
+.gevorderd,
+.ultimate {
+    width: 120px;
+    height: 120px;
+    border-radius: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
 }
 
 .beginner {
-    width: 140.25px; 
-    height: 106.5px; 
-    border-radius: 19.5px; 
-    background: #9C65D5;
-    flex-shrink: 0;
-    position: absolute;
-    top: 502.5px; 
-    left: 115.5px; 
-}
-
-.beginner img {
-    position: relative;
-    left: 7.5px; 
-    top: 7.5px; 
-    height: 30%;
-    width: 30%;
-}
-
-.beginnerText {
-    color: #000;
-    font-family: "TT Backwards Sans Trial";
-    font-size: 15px; 
-    font-style: normal;
-    font-weight: 100;
-    line-height: normal;
-    position: relative;
-    left: 7.5px; 
-    top: 7.5px; 
-}
-
-.beginnerPrijs {
-    color: #000;
-    font-family: "Anek Bangla";
-    font-size: 12px; 
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    position: relative;
-    top: 1.5px; 
-    left: 7.5px; 
+    background-color: #a873c0;
 }
 
 .dynamisch {
-    width: 140.25px; 
-    height: 106.5px; 
-    border-radius: 19.5px; 
-    background: #60B4D4;
-    flex-shrink: 0;
-    position: absolute;
-    top: 502.5px; 
-    left: 268.5px; 
-}
-
-.dynamisch img {
-    position: relative;
-    left: 7.5px; 
-    top: 7.5px; 
-    height: 30%;
-    width: 30%;
-}
-
-.dynamischText {
-    color: #000;
-    font-family: "TT Backwards Sans Trial";
-    font-size: 15px; 
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    position: relative;
-    left: 7.5px; 
-    top: 7.5px; 
-}
-
-.dynamischPrijs {
-    color: #000;
-    font-family: "Anek Bangla";
-    font-size: 12px; 
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    position: relative;
-    top: 1.5px; 
-    left: 7.5px; 
+    background-color: #5bb4cf;
 }
 
 .gevorderd {
-    width: 140.25px; 
-    height: 106.5px; 
-    border-radius: 19.5px; 
-    background: #5BCA54;
-    flex-shrink: 0;
-    position: absolute;
-    top: 619.5px; 
-    left: 115.5px; 
-}
-
-.gevorderd img {
-    position: relative;
-    left: 7.5px;
-    top: 7.5px;
-    height: 30%;
-    width: 30%;
-}
-
-.gevorderdText {
-    color: #000;
-    font-family: "TT Backwards Sans Trial";
-    font-size: 15px; 
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    position: relative;
-    left: 7.5px; 
-    top: 7.5px;
-}
-
-.gevorderdPrijs {
-    color: #000;
-    font-family: "Anek Bangla";
-    font-size: 12px; 
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    position: relative;
-    top: 1.5px;
-    left: 7.5px; 
+    background-color: #62d26f;
 }
 
 .ultimate {
-    width: 140.25px;
-    height: 106.5px; 
-    border-radius: 19.5px; 
-    background: #ED5E4B;
-    flex-shrink: 0;
-    position: absolute;
-    top: 619.5px;
-    left: 268.5px; 
+    background-color: #f26d50;
 }
 
+.beginner img,
+.dynamisch img,
+.gevorderd img,
 .ultimate img {
-    position: relative;
-    left: 7.5px;
-    top: 7.5px; 
-    height: 30%;
-    width: 30%;
+    position: static;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    filter: brightness(0) invert(1);
 }
 
+.beginnerText,
+.dynamischText,
+.gevorderdText,
 .ultimateText {
     color: #000;
-    font-family: "TT Backwards Sans Trial";
-    font-size: 15px; 
-    font-style: normal;
+    font-family: "TT Backwards Sans Trial", sans-serif;
+    font-size: 18px;
     font-weight: 700;
-    line-height: normal;
-    position: relative;
-    left: 7.5px;
-    top: 7.5px; 
+    margin: 0;
+    padding: 0;
+    position: static;
 }
 
+.beginnerPrijs,
+.dynamischPrijs,
+.gevorderdPrijs,
 .ultimatePrijs {
     color: #000;
-    font-family: "Anek Bangla";
-    font-size: 12px; 
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    position: relative;
-    top: 1.5px; 
-    left: 7.5px; 
+    font-family: "Anek Bangla", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    position: static;
+}
+
+/* Nieuwsberichten styling */
+#nieuwsberichten {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#nieuwsberichten h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#nieuwsberichten article {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+#nieuwsberichten article:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#nieuwsberichten article h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#nieuwsberichten article p {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #666;
+}
+
+#nieuwsberichten article small {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: #777;
+}
+
+/* Right section styling */
+.right-section>div {
+    margin-bottom: 40px;
 }
