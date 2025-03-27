@@ -63,21 +63,25 @@
         <img src="img/bloem.svg" alt="">
         <p class="beginnerText">Beginner</p>
         <p class="beginnerPrijs">€5</p>
+        <a href="producten.php" class="product-button">Meer info</a>
     </div>
     <div class="dynamisch">
         <img src="img/bloem.svg" alt="">
         <p class="dynamischText">Dynamisch</p>
         <p class="dynamischPrijs">€8</p>
+        <a href="producten.php" class="product-button">Meer info</a>
     </div>
     <div class="gevorderd">
         <img src="img/bloem.svg" alt="">
         <p class="gevorderdText">Gevorderd</p>
         <p class="gevorderdPrijs">€12</p>
+        <a href="producten.php" class="product-button">Meer info</a>
     </div>
     <div class="ultimate">
         <img src="img/bloem.svg" alt="">
         <p class="ultimateText">Ultimate</p>
         <p class="ultimatePrijs">€20</p>
+        <a href="producten.php" class="product-button">Meer info</a>
     </div>
 
     <footer>
