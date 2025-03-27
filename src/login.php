@@ -88,7 +88,7 @@
             const errorMessage = document.getElementById('errorMessage');
             
             if (localStorage.getItem('loggedIn') === 'true') {
-                window.location.href = 'home.php';
+                window.location.href = 'dashboard.php';
             }
             
             if (window.location.pathname.endsWith('dashboard.php') && localStorage.getItem('loggedIn') !== 'true') {
@@ -105,7 +105,7 @@
                     localStorage.setItem('loggedIn', 'true');
                     localStorage.setItem('username', username);
                     
-                    window.location.href = 'home.php';
+                    window.location.href = 'dashboard.php';
                 } else {
                     errorMessage.classList.remove('hidden');
                     document.getElementById('password').value = '';

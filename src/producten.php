@@ -45,31 +45,8 @@
 
           <div class="features">
             <div class="feature">
-              <img src="./img/vinkje.png" alt="">
               <div class="feature-text">
-                Lorem ipsum dolor sit<br>amet
-              </div>
-            </div>
-
-            <div class="feature">
-              <img src="./img/kruisje.png" alt="">
-              <div class="feature-text">
-                Lorem ipsum dolor sit<br>amet
-              </div>
-            </div>
-
-            <div class="feature">
-              <img src="./img/kruisje.png" alt="">
-              <div class="feature-text">
-                Lorem ipsum dolor sit<br>amet
-              </div>
-            </div>
-
-            <div class="feature">
-              <img src="./img/kruisje.png" alt="">
-              <div class="feature-text">
-                Lorem ipsum dolor sit<br>amet
-              </div>
+              Perfect voor starters! 🚀 Voor slechts €5 per maand krijg je 10 GB webspace, 2.000 mailboxen en een snelle SSD-database.              </div>
             </div>
           </div>
           <a href="details.php">
@@ -89,31 +66,8 @@
 
           <div class="features">
             <div class="feature">
-              <img src="./img/vinkje.png" alt="">
               <div class="feature-text">
-                Lorem ipsum dolor sit<br>amet
-              </div>
-            </div>
-
-            <div class="feature">
-              <img src="./img/vinkje.png" alt="">
-              <div class="feature-text">
-                Lorem ipsum dolor sit<br>amet
-              </div>
-            </div>
-
-            <div class="feature">
-              <img src="./img/kruisje.png" alt="">
-              <div class="feature-text">
-                Lorem ipsum dolor sit<br>amet
-              </div>
-            </div>
-
-            <div class="feature">
-              <img src="./img/kruisje.png" alt="">
-              <div class="feature-text">
-                Lorem ipsum dolor sit<br>amet
-              </div>
+              Voor dynamische websites! ⚡ Meer opslag (20 GB webspace), 4.000 mailboxen en ondersteuning voor Python & Ruby. Slechts €8 per maand!              </div>
             </div>
           </div>
           <a href="details.php">
@@ -132,31 +86,8 @@
 
           <div class="features">
             <div class="feature">
-              <img src="./img/vinkje.png" alt="">
               <div class="feature-text">
-                Lorem ipsum dolor sit<br>amet
-              </div>
-            </div>
-
-            <div class="feature">
-              <img src="./img/vinkje.png" alt="">
-              <div class="feature-text">
-                Lorem ipsum dolor sit<br>amet
-              </div>
-            </div>
-
-            <div class="feature">
-              <img src="./img/vinkje.png" alt="">
-              <div class="feature-text">
-                Lorem ipsum dolor sit<br>amet
-              </div>
-            </div>
-
-            <div class="feature">
-              <img src="./img/kruisje.png" alt="">
-              <div class="feature-text">
-                Lorem ipsum dolor sit<br>amet
-              </div>
+              Ideaal voor grote projecten! 💪 60 GB webspace, 20 databases, 8.000 mailboxen en SFTP-toegang voor maar €12 per maand.              </div>
             </div>
           </div>
           <a href="details.php">
@@ -175,31 +106,8 @@
 
           <div class="features">
             <div class="feature">
-              <img src="./img/vinkje.png" alt="">
               <div class="feature-text">
-                Lorem ipsum dolor sit<br>amet
-              </div>
-            </div>
-
-            <div class="feature">
-              <img src="./img/vinkje.png" alt="">
-              <div class="feature-text">
-                Lorem ipsum dolor sit<br>amet
-              </div>
-            </div>
-
-            <div class="feature">
-              <img src="./img/vinkje.png" alt="">
-              <div class="feature-text">
-                Lorem ipsum dolor sit<br>amet
-              </div>
-            </div>
-
-            <div class="feature">
-              <img src="./img/vinkje.png" alt="">
-              <div class="feature-text">
-                Lorem ipsum dolor sit<br>amet
-              </div>
+              De ultieme zakelijke oplossing! 💼 120 GB webspace, 15.000 mailboxen, 120 databases, SFTP en Cronjobs. Alles voor €20 per maand!              </div>
             </div>
           </div>
           <a href="details.php">
